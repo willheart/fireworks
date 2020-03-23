@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="../../assets/logo_sm.png" type="images/x-png" />
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="../assets/logo_ios.png">
+  <link rel="stylesheet" href="../../libraries/bootstrap.min.css">
+  <link rel="stylesheet" href="../../libraries/index.css">
+  <!-- iconfont -->
+  <title>Fireworks</title>
+  <style>
+    .btn-primary {
+      color: #353009;
+      background-color: #FEE52D;
+      border-color: #FEE52D;
+      border-radius: 100px;
+      font-weight: bold;
+    }
+
+    .btn-primary:hover {
+      color: #fff;
+      background-color: #F5A623;
+      border-color: #F5A623;
+    }
+
+    .btn-primary:focus,
+    .btn-primary.focus,{
+      box-shadow: 0 0 0 0.2rem #FEE52D;
+    }
+
+
+    .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+    .show>.btn-primary.dropdown-toggle {
+      color: #fff;
+      background-color: #F5A623;
+      border-color: #F5A623;
+    }
+
+    html {
+
+      touch-action: none;
+
+    }
+  </style>
+
+</head>
+
+<body>
+  <main role="main">
+
+    <!-- background -->
+    <div id="background" style="position:absolute; width:100%; height:100%; z-index:-1">
+      <img src="image/background.jpg" style="height:100%;width:100%;">
+    </div>
+
+    <div class="container">
+
+      <!--Begin Games card -->
+      <div class="row">
+        <div class="col-lg-6 col-sm-6" style="text-align: center;vertical-align: middle;">
+          <img src="image/title.png" style="width: 290px;margin-top:calc((100vh - 440px)/2);">
+        </div>
+
+        <div class="col-lg-6 col-sm-6 mt-5 m-5" style="text-align: center;vertical-align: middle;">
+
+          <a href="choosePattern/play.html" class="btn btn-primary btn-lg btn-block"> 随机模式</a>
+          <br>
+          <a href="drawPattern" class="btn btn-primary btn-lg btn-block">创作模式</a>
+          <br>
+          <a href="choosePattern" class="btn btn-primary btn-lg btn-block">烟花图库</a>
+          <br>
+        </div>
+
+
+      </div>
+      <!--End Games card -->
+  </main>
+
+
+</body>
+
+</html>
